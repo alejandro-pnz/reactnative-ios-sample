@@ -24,6 +24,8 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		A9617F171B826A35002CBE2D /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = A9617F161B826A35002CBE2D /* index.ios.js */; };
+		A9FA06451B850303000757D8 /* styles.js in Resources */ = {isa = PBXBuildFile; fileRef = A9FA06441B850303000757D8 /* styles.js */; };
+		A9FA066E1B850CB1000757D8 /* AdvertComponent.js in Resources */ = {isa = PBXBuildFile; fileRef = A9FA066D1B850CB1000757D8 /* AdvertComponent.js */; };
 		A9FB95621B83BA5C0071EC34 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = A9FB95611B83BA5C0071EC34 /* readme.md */; };
 /* End PBXBuildFile section */
 
@@ -130,6 +132,8 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		A9617F161B826A35002CBE2D /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
+		A9FA06441B850303000757D8 /* styles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = styles.js; sourceTree = "<group>"; };
+		A9FA066D1B850CB1000757D8 /* AdvertComponent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AdvertComponent.js; sourceTree = "<group>"; };
 		A9FB95611B83BA5C0071EC34 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -237,6 +241,7 @@
 		13B07FAE1A68108700A75B9A /* Infovuz */ = {
 			isa = PBXGroup;
 			children = (
+				A9FA066D1B850CB1000757D8 /* AdvertComponent.js */,
 				A9617F161B826A35002CBE2D /* index.ios.js */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -245,6 +250,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				A9FA06441B850303000757D8 /* styles.js */,
 			);
 			name = Infovuz;
 			sourceTree = "<group>";
@@ -513,8 +519,10 @@
 			files = (
 				A9617F171B826A35002CBE2D /* index.ios.js in Resources */,
 				008F07F31AC5B25A0029DE68 /* main.jsbundle in Resources */,
+				A9FA066E1B850CB1000757D8 /* AdvertComponent.js in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				A9FA06451B850303000757D8 /* styles.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

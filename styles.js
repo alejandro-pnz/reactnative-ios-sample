@@ -7,7 +7,7 @@ module.exports = {
      flexDirection: 'row',
      justifyContent: 'center',
      alignItems: 'center',
-     backgroundColor: '#F5FCFF',
+     backgroundColor: '#FFFFFF',
    },
    rightContainer: {
      flex: 1,
@@ -27,5 +27,23 @@ module.exports = {
    listView: {
      paddingTop: 20,
      backgroundColor: '#F5FCFF',
+   },
+   timetableDayContainer: {
+     flex: 1,
+     flexDirection: 'row',
+     alignItems: 'center',
+     paddingTop: 10,
+     paddingBottom: 10,
+   },
+   timetableDayTitle: {
+    textAlign: 'left',
+    fontSize: 20,
+   },
+   timetableLeftContainer: {
+     alignSelf: 'stretch',
+     width: 100,
+   },
+   timetableRightContainer: {
+    alignItems: 'flex-start',
    },
  };

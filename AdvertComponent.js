@@ -51,18 +51,18 @@ class AdvertComponent extends Component
 
     return (
       <ListView
-      dataSource={this.state.dataSource}
-      renderRow={this.renderItem}
-      style={styles.listView}/>
+        dataSource={this.state.dataSource}
+        renderRow={this.renderItem}
+        style={styles.listView}/>
       );
   }
   
   renderLoadingView() {
     return (
       <View style={styles.container}>
-      <Text>
-      Loading adverts...
-      </Text>
+        <Text>
+        Загружаю объявления...
+        </Text>
       </View>
       );
   }

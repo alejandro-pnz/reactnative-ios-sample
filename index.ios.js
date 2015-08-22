@@ -9,6 +9,7 @@ var {
   Text,
 } = React;
 var AdvertComponent = require('./AdvertComponent')
+var TimetableComponent = require('./TimetableComponent')
 
 class InfovuzApp extends Component{
   render(){
@@ -17,7 +18,7 @@ class InfovuzApp extends Component{
         style={styles.navigationContainer}
         initialRoute={{
             title: 'ИнфоВУЗ ПГУ',
-            component: AdvertComponent,
+            component: TimetableComponent,
         }}/>
       );
   }

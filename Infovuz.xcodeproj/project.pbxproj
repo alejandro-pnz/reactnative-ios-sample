@@ -23,6 +23,9 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		A909D65C1B887B6700A1884E /* NewsComponent.js in Resources */ = {isa = PBXBuildFile; fileRef = A909D6591B887B6700A1884E /* NewsComponent.js */; };
+		A909D65D1B887B6700A1884E /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = A909D65A1B887B6700A1884E /* package.json */; };
+		A909D65E1B887B6700A1884E /* TimetableComponent.js in Resources */ = {isa = PBXBuildFile; fileRef = A909D65B1B887B6700A1884E /* TimetableComponent.js */; };
 		A9617F171B826A35002CBE2D /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = A9617F161B826A35002CBE2D /* index.ios.js */; };
 		A9FA06451B850303000757D8 /* styles.js in Resources */ = {isa = PBXBuildFile; fileRef = A9FA06441B850303000757D8 /* styles.js */; };
 		A9FA066E1B850CB1000757D8 /* AdvertComponent.js in Resources */ = {isa = PBXBuildFile; fileRef = A9FA066D1B850CB1000757D8 /* AdvertComponent.js */; };
@@ -131,6 +134,9 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		A909D6591B887B6700A1884E /* NewsComponent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = NewsComponent.js; sourceTree = "<group>"; };
+		A909D65A1B887B6700A1884E /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		A909D65B1B887B6700A1884E /* TimetableComponent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TimetableComponent.js; sourceTree = "<group>"; };
 		A9617F161B826A35002CBE2D /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
 		A9FA06441B850303000757D8 /* styles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = styles.js; sourceTree = "<group>"; };
 		A9FA066D1B850CB1000757D8 /* AdvertComponent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AdvertComponent.js; sourceTree = "<group>"; };
@@ -241,6 +247,9 @@
 		13B07FAE1A68108700A75B9A /* Infovuz */ = {
 			isa = PBXGroup;
 			children = (
+				A909D6591B887B6700A1884E /* NewsComponent.js */,
+				A909D65A1B887B6700A1884E /* package.json */,
+				A909D65B1B887B6700A1884E /* TimetableComponent.js */,
 				A9FA066D1B850CB1000757D8 /* AdvertComponent.js */,
 				A9617F161B826A35002CBE2D /* index.ios.js */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -517,10 +526,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A909D65D1B887B6700A1884E /* package.json in Resources */,
 				A9617F171B826A35002CBE2D /* index.ios.js in Resources */,
 				008F07F31AC5B25A0029DE68 /* main.jsbundle in Resources */,
+				A909D65C1B887B6700A1884E /* NewsComponent.js in Resources */,
 				A9FA066E1B850CB1000757D8 /* AdvertComponent.js in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A909D65E1B887B6700A1884E /* TimetableComponent.js in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				A9FA06451B850303000757D8 /* styles.js in Resources */,
 			);
